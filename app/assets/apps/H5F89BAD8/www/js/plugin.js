@@ -14,16 +14,9 @@
 }(this, function () {
     var _BARCODE = 'ZysoftPlugin';
     var zysoftplugin = {
-        PluginTest: function (successCallback, errorCallback) {
-            var success = typeof successCallback !== 'function' ? null : function (args) {
-                successCallback(args);
-            },
-                fail = typeof errorCallback !== 'function' ? null : function (code) {
-                    errorCallback(code);
-                };
-            callbackID = B.callbackId(success, fail);
-
-            return plus.bridge.exec(_BARCODE, "pluginTest", [callbackID]);
+        PluginTest: function () {
+			console.log("进入插件开始执行")
+            return plus.bridge.execSync(_BARCODE, "PluginTest", [Argus]);
 
         }
     };

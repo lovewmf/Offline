@@ -1,12 +1,12 @@
 {
     "@platforms" : [ "android", "iPhone", "iPad" ],
     "id" : "H5F89BAD8", /*应用的标识，创建应用时自动生成，勿手动修改*/
-    "name" : "医院叫号", /*应用名称，程序桌面图标名称*/
+    "name" : "Dcloud", /*应用名称，程序桌面图标名称*/
     "version" : {
         "name" : "1.1.0", /*应用版本名称*/
         "code" : 1
     },
-    "description" : "医院叫号系统", /*应用描述信息*/
+    "description" : "Dcloud", /*应用描述信息*/
     "icons" : {
         "72" : "icon.png"
     },
@@ -25,8 +25,7 @@
         },
         "Events" : {
             "description" : "应用扩展事件"
-        },
-        "VideoPlayer" : {}
+        }
     },
     "plus" : {
         "splashscreen" : {
@@ -132,9 +131,6 @@
                     "xxhdpi" : ""
                 }
             }
-        },
-        "error" : {
-            "url" : "html/404.html"
         }
     },
     "fullscreen" : false
