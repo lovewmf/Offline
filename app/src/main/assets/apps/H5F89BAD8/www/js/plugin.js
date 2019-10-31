@@ -22,6 +22,23 @@
         PluginShowToast: function(){
         	return plus.bridge.execSync(_BARCODE,"PluginShowToast",[]);
         },
+        //异步有参有返回值
+        PluginArgs: function(args,successCallback, errorCallback){
+            console.log(12345678);
+            var success = typeof successCallback !== 'function' ? null : function(args) {
+                    successCallback(args);
+                },
+                fail = typeof errorCallback !== 'function' ? null : function(code) {
+                    errorCallback(code);
+                };
+            callbackID = plus.bridge.callbackId(success, fail);
+
+            return plus.bridge.exec(_BARCODE, "PluginArgs", [callbackID,args]);
+        },
+        //同步有参有返回值
+        PluginArgsSync: function(args){
+            return plus.bridge.execSync(_BARCODE, "PluginArgsSync", [args]);
+        }
     };
     return ZySoftPlugin;
 });
