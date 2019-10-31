@@ -31,7 +31,6 @@ public class ZySoftPlugin extends StandardFeature {
     public void PluginShowToastSync(IWebview pWebview, JSONArray array){
         Log.e(TAG,"This is a asynchronous Toast");
         fun.ShowToast(mCtx,"This is a asynchronous Toast");
-
     }
     //异步有参有返回值
     public void PluginArgs(IWebview pWebview, JSONArray array){
