@@ -25,8 +25,7 @@
         },
         "Events" : {
             "description" : "应用扩展事件"
-        },
-        "VideoPlayer" : {}
+        }
     },
     "plus" : {
         "splashscreen" : {
@@ -55,7 +54,6 @@
                 "minSdkVersion" : "14",
                 "targetSdkVersion" : "14",
                 "permissions" : [
-                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
                     "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
                     "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
                     "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",

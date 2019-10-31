@@ -1,12 +1,12 @@
 <properties>
 	<features>
 		<feature name="Barcode" value="io.dcloud.feature.barcode2.BarcodeFeatureImpl"/>
-        <feature name="Speech" value="io.dcloud.feature.speech.SpeechFeatureImpl">
-            <module name="iFly" value="io.dcloud.feature.speech.IflySpeechEngine"/>
-            <module name="baidu" value="io.dcloud.feature.speech.BaiduSpeechEngine"/>
-        </feature>
+		<feature name="Speech" value="io.dcloud.feature.speech.SpeechFeatureImpl">
+			<module name="iFly" value="io.dcloud.feature.speech.IflySpeechEngine"/>
+			<module name="baidu" value="io.dcloud.feature.speech.BaiduSpeechEngine"/>
+		</feature>
 		<feature name="Maps" value="io.dcloud.js.map.amap.JsMapPluginImpl"/>
-        <!--<feature name="Maps" value="io.dcloud.js.map.JsMapPluginImpl"/>-->
+		<!--<feature name="Maps" value="io.dcloud.js.map.JsMapPluginImpl"/>-->
 		<feature name="Contacts" value="io.dcloud.feature.contacts.ContactsFeatureImpl"/>
 		<feature name="Messaging" value="io.dcloud.adapter.messaging.MessagingPluginImpl"/>
 		<feature name="Camera" value="io.dcloud.js.camera.CameraFeatureImpl"/>
@@ -32,13 +32,13 @@
 		<feature name="Zip" value="io.dcloud.feature.pdr.ZipFeature"/>
 		<feature name="Audio" value="io.dcloud.feature.audio.AudioFeatureImpl"/>
 		<feature name="Runtime" value="io.dcloud.feature.pdr.RuntimeFeatureImpl"/>
-        <feature name="VideoPlayer" value="io.dcloud.media.MediaFeatureImpl"/>
-        <feature name="LivePusher" value="io.dcloud.media.live.LiveMediaFeatureImpl"/>
+		<feature name="VideoPlayer" value="io.dcloud.media.MediaFeatureImpl"/>
+		<feature name="LivePusher" value="io.dcloud.media.live.LiveMediaFeatureImpl"/>
 		<feature name="XMLHttpRequest" value="io.dcloud.net.XMLHttpRequestFeature"/>
 		<feature name="Statistic" value="io.dcloud.feature.statistics.StatisticsFeatureImpl"/>
 		<feature name="Accelerometer" value="io.dcloud.feature.sensor.AccelerometerFeatureImpl"/>
 		<feature name="Orientation" value="io.dcloud.feature.sensor.OrientationFeatureImpl"/>
-		<feature name="NativeObj" value="io.dcloud.feature.nativeObj.FeatureImpl"/>		
+		<feature name="NativeObj" value="io.dcloud.feature.nativeObj.FeatureImpl"/>
 		<feature name="Geolocation" value="io.dcloud.js.geolocation.GeolocationFeatureImpl"/>
 		<feature name="Payment" value="io.dcloud.feature.payment.PaymentFeatureImpl">
 			<module name="AliPay" value="io.dcloud.feature.payment.alipay.AliPay"/>
@@ -62,6 +62,7 @@
 		<feature name="Fingerprint" value="io.dcloud.feature.fingerprint.FingerPrintsImpl"/>
 		<feature name="iBeacon" value="io.dcloud.feature.iBeacon.WxBluetoothFeatureImpl"/>
 		<feature name="Bluetooth" value="io.dcloud.feature.bluetooth.BluetoothFeature"/>
+		<feature name="ZySoftPlugin" value="com.wmf.dcloud.ZySoftPlugin"/>
 	</features>
 
 	<services>
@@ -69,5 +70,6 @@
 		<service name="Statistic" value="io.dcloud.feature.statistics.StatisticsBootImpl"/>
 		<service name="Downloader" value="io.dcloud.net.DownloaderBootImpl"/>
 		<!--<service name="Maps" value="io.dcloud.js.map.MapInitImpl"/>-->
+		<service name="ZySoftPlugin" value="com.wmf.dcloud.ZySoftPlugin"/>
 	</services>
 </properties>

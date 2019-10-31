@@ -11,18 +11,29 @@
 
 	</head>
 	<body>
+		<style>
+			.mui-icon{
+				font-size: 1.5rem;
+			}
+			#p{
+				margin-top: 0.5rem;
+				color: #000;
+			}
+		</style>
 		<section class="ui-notice">
-			<i></i>
-			<p>请点击按钮</p>
+			<span class="mui-icon mui-icon-spinner mui-spin"></span>
+			<p id="p">This is a native toast</p>
 			<div class="ui-notice-btn">
-				<button class="ui-btn-primary ui-btn-lg">按钮</button>
+				<button class="ui-btn-primary ui-btn-lg">Toast 提示</button>
 			</div>
 		</section>
+		
 		<script type="text/javascript" charset="utf-8">
 			mui.init();
 			mui.plusReady(function() {
-				console.log("++++++++++++++++++++++++++++++++++++++");
-				console.log(plus.zysoftplugin.PluginTest());
+				mui(".ui-notice-btn").on("tap","button",function(){
+					ZySoftPlugin.PluginShowToastSync();
+				})
    		   });
 		</script>
 	</body>

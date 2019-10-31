@@ -20,8 +20,8 @@ import android.widget.Toast;
  */
 public class Function extends Activity {
 
-    public void ShowToast(Context mCtx){
-        Toast toast = Toast.makeText(mCtx, "This is a native Toast",Toast.LENGTH_SHORT);
+    public void ShowToast(Context mCtx,String msg){
+        Toast toast = Toast.makeText(mCtx, msg,Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
     }
