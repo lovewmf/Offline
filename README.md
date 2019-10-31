@@ -1,5 +1,13 @@
 ## Dcloud 最新版离线打包精简版示例
 
+* master 分支为Dcloud
+
+    `git clone -master https://github.com/lovewmf/Offline.git`
+
+* ass 分支为ApiCloud
+
+   `git clone -sss https://github.com/lovewmf/Offline.git`
+
 **如需操作Application，必须要继承自DCloudApplication**
 
 ```java
