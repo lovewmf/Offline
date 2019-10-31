@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/zysoftplugin.js" type="text/javascript" charset="utf-8"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/mian.css" rel="stylesheet" />
+		<link href="css/frozen.css" rel="stylesheet" />
+
+	</head>
+	<body>
+		<p id="net">请检查到网络是否正常，以及后台服务是否正常</p>
+		<section class="ui-notice" id="select">
+			<i></i>
+			<p>遇到一个错误，导致应用无法正常运行</p>
+			<div class="ui-notice-btn">
+				<h4 class="ui-arrowlink"><span id="erro"></span></h4>
+				<h4 class="ui-arrowlink"><span id="ipAddr"></span></h4>
+				<h4 class="ui-arrowlink"><span id="mac"></span></h4>
+			</div>
+		</section>
+		<div class="zy-ppt" id="ppt">
+			<div class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop" id="group">
+				</div>
+			</div>
+		</div>
+		<script src="js/init.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+			mui.plusReady(function() {
+				console.log(plus.zysoftplugin.PluginTest())//获取可用存储空间大小
+			 
+   		   });
+		</script>
+	</body>
+</html>

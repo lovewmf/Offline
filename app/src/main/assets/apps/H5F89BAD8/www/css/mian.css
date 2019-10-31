@@ -1,0 +1,24 @@
+.zy-ppt{
+	width: 34%;
+	height: 50%;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+#group,.mui-slider{
+	height: 100%;
+}
+.mui-slider-item>img{
+	height: 100%;
+}
+#select{
+	margin-top: 100px;
+    display: none;
+}
+#net{
+	display: none;
+	text-align: center;
+	padding: 5em 0;
+}
