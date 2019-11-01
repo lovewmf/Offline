@@ -109,11 +109,11 @@ public String PluginArgsSync(IWebview pWebview, JSONArray array){
 ```json
 {
     "modules":[
-		{
-		    "name":"moduleZySoft",
-			"class":"com.wmf.moduleZySoft.APIModuleZySoft"
-		}
-	]
+        {
+            "name":"moduleZySoft",
+            "class":"com.wmf.moduleZySoft.APIModuleZySoft"
+        }
+    ]
 }
 ```
 
