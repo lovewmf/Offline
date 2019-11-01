@@ -1,1 +1,1 @@
-include ':app', ':moduleDemo', ':moduleScrollPicture', ':moduleSyncInterface', ':moduleRefresh', ':moduleAppdelegate', ':moduleZySoft'
+include ':app', ':moduleZySoft'

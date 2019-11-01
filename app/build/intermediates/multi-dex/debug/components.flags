@@ -1,5 +1,5 @@
--injars 'C:\Users\wmf\Desktop\APICloudModuleSDK\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
--outjars 'C:\Users\wmf\Desktop\APICloudModuleSDK\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'D:\Wisdom\Offline\dcloud\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'D:\Wisdom\Offline\dcloud\app\build\intermediates\multi-dex\debug\componentClasses.jar'
 
 -libraryjars 'D:\Android\Sdk\build-tools\25.0.2\lib\shrinkedAndroid.jar'
 
@@ -10,7 +10,7 @@
 -dontpreverify
 -dontnote **
 -dontwarn **
--printconfiguration 'C:\Users\wmf\Desktop\APICloudModuleSDK\app\build\intermediates\multi-dex\debug\components.flags'
+-printconfiguration 'D:\Wisdom\Offline\dcloud\app\build\intermediates\multi-dex\debug\components.flags'
 
 
 -keep public class * extends android.app.Instrumentation {

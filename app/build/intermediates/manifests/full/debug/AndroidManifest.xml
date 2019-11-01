@@ -29,8 +29,7 @@
         android:hardwareAccelerated="true"
         android:icon="@drawable/uz_icon"
         android:label="@string/app_name"
-        android:largeHeap="true"
-        android:supportsRtl="true" >
+        android:largeHeap="true" >
         <meta-data
             android:name="uz_version"
             android:value="1.2.0" />
@@ -53,12 +52,6 @@
             android:authorities="com.apicloud.pkg.sdk.upms"
             android:exported="false"
             android:grantUriPermissions="true" />
-
-        <activity
-            android:name="com.apicloud.moduleDemo.DemoActivity"
-            android:configChanges="orientation|locale"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" />
     </application>
 
 </manifest>

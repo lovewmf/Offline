@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\wmf\\Desktop\\APICloudModuleSDK\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "D:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 92
                 },
                 "from": {
-                    "file": "C:\\Users\\wmf\\Desktop\\APICloudModuleSDK\\app\\src\\main\\res\\values\\mo_engine_values.xml",
+                    "file": "D:\\Wisdom\\Offline\\dcloud\\app\\src\\main\\res\\values\\mo_engine_values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -31,7 +31,7 @@
                     "endOffset": 677
                 },
                 "from": {
-                    "file": "C:\\Users\\wmf\\Desktop\\APICloudModuleSDK\\app\\src\\main\\res\\values\\mo_engine_values.xml",
+                    "file": "D:\\Wisdom\\Offline\\dcloud\\app\\src\\main\\res\\values\\mo_engine_values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,

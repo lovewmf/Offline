@@ -1,8 +1,8 @@
 {
 	"modules":[
 		{
-			"name":"moduleDemo",
-			"class":"com.apicloud.moduleDemo.APIModuleDemo"
+			"name":"moduleZySoft",
+			"class":"com.wmf.moduleZySoft.APIModuleZySoft"
 		}
 	]
 }
