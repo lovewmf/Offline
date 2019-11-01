@@ -101,4 +101,32 @@ public String PluginArgsSync(IWebview pWebview, JSONArray array){
 </details>
 
 
-## ApiCloud 离线打包精简版
+## ApiCloud 离线打包模块开发
+
+`https://docs.apicloud.com/Module-Dev/module-dev-guide-for-android-studio`
+
+**配置module.json**
+```json
+{
+    "modules":[
+		{
+		    "name":"moduleZySoft",
+			"class":"com.wmf.moduleZySoft.APIModuleZySoft"
+		}
+	]
+}
+```
+
+**使用方式**
+
+```javascript
+<script type="text/javascript">
+    var zysoft = null;
+    apiready = function(){
+  		zysoft = api.require('moduleZySoft');//引入模块
+        $api.addEvt($api.byId('Suspension'), 'click', function(){
+            zysoft.ShowToast();//执行模块里面的方法
+        }, false);
+    };
+</script>
+```

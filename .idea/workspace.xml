@@ -10,25 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f0dfb54-c395-4a27-ace6-831bd0b804fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/moduleZySoft/src/main/java/com/wmf/moduleZySoft/APIModuleZySoft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_moduleZySoft_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_moduleZySoft_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_moduleZySoft_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_moduleZySoft_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_moduleZySoft_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_moduleZySoft_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_moduleZySoft_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_moduleZySoft_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_f2nwoi1f92koicfvc91gz6fwp/com/wmf/moduleZySoft/ZySoftActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_f2nwoi1f92koicfvc91gz6fwp/com/wmf/moduleZySoft/ZySoftActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_f2nwoi1f92koicfvc91gz6fwp/com/wmf/moduleZySoft/ZySostActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_f2nwoi1f92koicfvc91gz6fwp/com/wmf/moduleZySoft/ZySostActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/widget/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/widget/html/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduleZySoft/src/main/java/com/wmf/moduleZySoft/ZySoftActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduleZySoft/src/main/java/com/wmf/moduleZySoft/ZySostActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,11 +67,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/moduleZySoft/src/main/java/com/wmf/moduleZySoft/APIModuleZySoft.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
               <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/uzmap/module.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/widget/html/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="44" selection-start-line="44" selection-end-line="83" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -188,7 +188,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="uzmap" type="462c0819:PsiDirectoryNode" />
+              <item name="widget" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dcloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="widget" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dcloud" type="b2602c69:ProjectViewProjectNode" />
@@ -482,7 +492,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18443497" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18443497" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -646,24 +656,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/moduleZySoft/src/main/java/com/wmf/moduleZySoft/APIModuleZySoft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/uzmap/module.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="32" />
+        <state relative-caret-position="132">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/widget/html/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moduleZySoft/src/main/java/com/wmf/moduleZySoft/APIModuleZySoft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        <state relative-caret-position="300">
+          <caret line="44" selection-start-line="44" selection-end-line="83" selection-end-column="9" />
         </state>
       </provider>
     </entry>
