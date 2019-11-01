@@ -9,58 +9,77 @@
 	<style>
 		#con{
 			margin: 10px;
-			font-size: 24px; 
+			font-size: 24px;
 		}
 		ul{
 			margin-bottom: 10px;
 		}
-		ul li{ 
+		ul li{
 			margin: 5px 10px;
 			padding: 5px;
 			color: #000;
 			word-wrap: break-word;
 		}
+    #Suspension{
+      position: absolute;
+      bottom: 5rem;
+      right: 1rem;
+      z-index: 9999999;
+      width: 4rem;
+      height: 4rem;
+      text-align: center;
+      line-height: 4rem;
+      border-radius: 100%;
+      color: #FFF;
+      -webkit-box-shadow: 0px 0px 10px #c8c8c8;
+      background: linear-gradient(45deg, #1DA1F2, #c648c8);
+    }
 	</style>
 </head>
 <body>
     <label id="con">Hello APP</label>
 	<div id='sys-info'></div>
+  <div tapmode id="Suspension">Toast</div>
 </body>
 <script type="text/javascript" src="../script/api.js"></script>
 <script type="text/javascript">
+    var zysoft = null;
     apiready = function(){
-		var ver = api.version;
-		var sType = api.systemType;
-		var sVer = api.systemVersion;
-		var id = api.deviceId;
-		var model = api.deviceModel;
-		var name = api.deviceName;
-		var cType = api.connectionType;
-		var winName = api.winName;
-		var winWidth = api.winWidth;
-		var winHeight = api.winHeight;
-		var frameName = api.frameName || '';
-		var frameWidth = api.frameWidth || '';
-		var frameHeight = api.frameHeight || '';
+  		var ver = api.version;
+  		var sType = api.systemType;
+  		var sVer = api.systemVersion;
+  		var id = api.deviceId;
+  		var model = api.deviceModel;
+  		var name = api.deviceName;
+  		var cType = api.connectionType;
+  		var winName = api.winName;
+  		var winWidth = api.winWidth;
+  		var winHeight = api.winHeight;
+  		var frameName = api.frameName || '';
+  		var frameWidth = api.frameWidth || '';
+  		var frameHeight = api.frameHeight || '';
 
-		var str = '<ul>';
-		str += '<li>引擎版本信息: ' + ver + '</li>';
-		str += '<li>系统类型: ' + sType + '</li>';
-		str += '<li>系统版本: ' + sVer + '</li>';
-		str += '<li>设备标识: ' + id + '</li>';
-		str += '<li>设备型号: ' + model + '</li>';
-		str += '<li>设备名称: ' + name + '</li>';
-		str += '<li>网络状态: ' + cType + '</li>';
-		str += '<li>主窗口名字: ' + winName + '</li>';
-		str += '<li>主窗口宽度: ' + winWidth + '</li>';
-		str += '<li>主窗口高度: ' + winHeight + '</li>';
-		str += '<li>子窗口名字: ' + frameName + '</li>';
-		str += '<li>子窗口宽度: ' + frameWidth + '</li>';
-		str += '<li>子窗口高度: ' + frameHeight + '</li>';
-		str += '</ul>';
+  		var str = '<ul>';
+  		str += '<li>引擎版本信息: ' + ver + '</li>';
+  		str += '<li>系统类型: ' + sType + '</li>';
+  		str += '<li>系统版本: ' + sVer + '</li>';
+  		str += '<li>设备标识: ' + id + '</li>';
+  		str += '<li>设备型号: ' + model + '</li>';
+  		str += '<li>设备名称: ' + name + '</li>';
+  		str += '<li>网络状态: ' + cType + '</li>';
+  		str += '<li>主窗口名字: ' + winName + '</li>';
+  		str += '<li>主窗口宽度: ' + winWidth + '</li>';
+  		str += '<li>主窗口高度: ' + winHeight + '</li>';
+  		str += '<li>子窗口名字: ' + frameName + '</li>';
+  		str += '<li>子窗口宽度: ' + frameWidth + '</li>';
+  		str += '<li>子窗口高度: ' + frameHeight + '</li>';
+  		str += '</ul>';
 
-		$api.byId('sys-info').innerHTML = str;
-
+  		$api.byId('sys-info').innerHTML = str;
+  		zysoft = api.require('moduleZySoft');
+        $api.addEvt($api.byId('Suspension'), 'click', function(){
+            zysoft.ShowToast();
+        }, false);
     };
 </script>
 </html>

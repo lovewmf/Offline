@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Nov 01 10:54:21 CST 2019
+#Fri Nov 01 11:17:21 CST 2019
 8.set=ASSET
 1.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug
 1.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug\\widget\\launch\\launch1080x1920.png
