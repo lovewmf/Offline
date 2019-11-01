@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\wmf\\Desktop\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\wmf\\.android\\build-cache\\2a97806dd43dfb196bffb63c5d3995cecf41793e\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\wmf\\Desktop\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\wmf\\.android\\build-cache\\7cd6830d00ffae365fcaddf0e4806d1818cc1026\\output\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\wmf\\Desktop\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\wmf\\.android\\build-cache\\7cd6830d00ffae365fcaddf0e4806d1818cc1026\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\wmf\\Desktop\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\wmf\\.android\\build-cache\\7cd6830d00ffae365fcaddf0e4806d1818cc1026\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\wmf\\Desktop\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\wmf\\.android\\build-cache\\7cd6830d00ffae365fcaddf0e4806d1818cc1026\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\wmf\\Desktop\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\wmf\\.android\\build-cache\\7cd6830d00ffae365fcaddf0e4806d1818cc1026\\output\\res\\drawable-v21\\abc_list_divider_material.xml"
+    }
+]

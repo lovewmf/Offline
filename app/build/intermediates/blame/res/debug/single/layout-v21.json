@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\wmf\\Desktop\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\wmf\\.android\\build-cache\\2a97806dd43dfb196bffb63c5d3995cecf41793e\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\wmf\\Desktop\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\wmf\\.android\\build-cache\\2a97806dd43dfb196bffb63c5d3995cecf41793e\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\wmf\\Desktop\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\wmf\\.android\\build-cache\\2a97806dd43dfb196bffb63c5d3995cecf41793e\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\wmf\\Desktop\\APICloudModuleSDK\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\wmf\\.android\\build-cache\\2a97806dd43dfb196bffb63c5d3995cecf41793e\\output\\res\\layout-v21\\notification_action.xml"
+    }
+]

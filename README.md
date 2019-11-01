@@ -4,9 +4,9 @@
 
     `git clone -master https://github.com/lovewmf/Offline.git`
 
-* ass 分支为ApiCloud
+* apicloud 分支为ApiCloud
 
-   `git clone -sss https://github.com/lovewmf/Offline.git`
+   `git clone -apicloud https://github.com/lovewmf/Offline.git`
 
 **如需操作Application，必须要继承自DCloudApplication**
 

@@ -3,11 +3,20 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT" />
-        </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/moduleAppdelegate" />
+            <option value="$PROJECT_DIR$/moduleDemo" />
+            <option value="$PROJECT_DIR$/moduleRefresh" />
+            <option value="$PROJECT_DIR$/moduleScrollPicture" />
+            <option value="$PROJECT_DIR$/moduleSyncInterface" />
+            <option value="$PROJECT_DIR$/moduleZySoft" />
+          </set>
+        </option>
         <option name="resolveModulePerSourceSet" value="false" />
         <option name="testRunner" value="PLATFORM" />
       </GradleProjectSettings>

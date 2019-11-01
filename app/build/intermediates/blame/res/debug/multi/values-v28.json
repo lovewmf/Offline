@@ -1,0 +1,87 @@
+[
+    {
+        "outputFile": "C:\\Users\\wmf\\Desktop\\APICloudModuleSDK\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 74,
+                    "endOffset": 125
+                },
+                "from": {
+                    "file": "C:\\Users\\wmf\\.android\\build-cache\\7cd6830d00ffae365fcaddf0e4806d1818cc1026\\output\\res\\values-v28\\values-v28.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 74,
+                        "endOffset": 125
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 130,
+                    "endColumn": 86,
+                    "endOffset": 212
+                },
+                "from": {
+                    "file": "C:\\Users\\wmf\\.android\\build-cache\\7cd6830d00ffae365fcaddf0e4806d1818cc1026\\output\\res\\values-v28\\values-v28.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 130,
+                        "endColumn": 86,
+                        "endOffset": 212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 217,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 442
+                },
+                "from": {
+                    "file": "C:\\Users\\wmf\\.android\\build-cache\\7cd6830d00ffae365fcaddf0e4806d1818cc1026\\output\\res\\values-v28\\values-v28.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 217,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 447,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 684
+                },
+                "from": {
+                    "file": "C:\\Users\\wmf\\.android\\build-cache\\7cd6830d00ffae365fcaddf0e4806d1818cc1026\\output\\res\\values-v28\\values-v28.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 447,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 684
+                    }
+                }
+            }
+        ]
+    }
+]

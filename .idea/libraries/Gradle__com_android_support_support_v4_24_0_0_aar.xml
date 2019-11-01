@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:support-v4:24.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.android/build-cache/bb2c01c36d37cccfef5204c78e9cf487007eb821/output/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/bb2c01c36d37cccfef5204c78e9cf487007eb821/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/bb2c01c36d37cccfef5204c78e9cf487007eb821/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/bb2c01c36d37cccfef5204c78e9cf487007eb821/output/jars/libs/internal_impl-24.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/24.0.0/support-v4-24.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/24.0.0/support-v4-24.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

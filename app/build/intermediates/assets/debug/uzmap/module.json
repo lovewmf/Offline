@@ -1,0 +1,8 @@
+{
+	"modules":[
+		{
+			"name":"moduleDemo",
+			"class":"com.apicloud.moduleDemo.APIModuleDemo"
+		}
+	]
+}
