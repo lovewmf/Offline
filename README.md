@@ -123,7 +123,7 @@ public String PluginArgsSync(IWebview pWebview, JSONArray array){
 <script type="text/javascript">
     var zysoft = null;
     apiready = function(){
-  		zysoft = api.require('moduleZySoft');//引入模块
+        zysoft = api.require('moduleZySoft');//引入模块
         $api.addEvt($api.byId('Suspension'), 'click', function(){
             zysoft.ShowToast();//执行模块里面的方法
         }, false);
