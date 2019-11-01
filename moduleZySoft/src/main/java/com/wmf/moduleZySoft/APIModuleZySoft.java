@@ -36,7 +36,7 @@ public class APIModuleZySoft extends UZModule{
         Toast toast = Toast.makeText(context(), "Hi！我是原生的Toast",Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
-        moduleContext.interrupt();
+        moduleContext.interrupt();//无回调调用此方法
         //moduleContext.success("",true);成功回调
        // moduleContext.error("",true);失败回调
     }
