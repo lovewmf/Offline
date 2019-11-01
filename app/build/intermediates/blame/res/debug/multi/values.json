@@ -7,8 +7,8 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 41,
-                    "endOffset": 92
+                    "endColumn": 45,
+                    "endOffset": 96
                 },
                 "from": {
                     "file": "D:\\Wisdom\\Offline\\dcloud\\app\\src\\main\\res\\values\\mo_engine_values.xml",
@@ -16,8 +16,8 @@
                         "startLine": 3,
                         "startColumn": 4,
                         "startOffset": 75,
-                        "endColumn": 41,
-                        "endOffset": 112
+                        "endColumn": 45,
+                        "endOffset": 116
                     }
                 }
             },
@@ -25,21 +25,13 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 97,
+                    "startOffset": 101,
                     "endLine": 12,
                     "endColumn": 12,
-                    "endOffset": 677
+                    "endOffset": 681
                 },
                 "from": {
-                    "file": "D:\\Wisdom\\Offline\\dcloud\\app\\src\\main\\res\\values\\mo_engine_values.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 121,
-                        "endLine": 14,
-                        "endColumn": 12,
-                        "endOffset": 710
-                    }
+                    "file": "D:\\Wisdom\\Offline\\dcloud\\app\\src\\main\\res\\values\\mo_engine_values.xml"
                 }
             }
         ]

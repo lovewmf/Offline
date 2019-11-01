@@ -1,27 +1,27 @@
 #Internal package file, do not edit.
-#Fri Nov 01 11:17:21 CST 2019
-8.set=ASSET
+#Fri Nov 01 15:08:03 CST 2019
+8.set=ANDROID_RESOURCE
 1.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug
 1.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug\\widget\\launch\\launch1080x1920.png
 3.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
 3.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 15.set=NATIVE_RESOURCE
 4.set=ASSET
-5.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug
-5.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug\\widget\\script\\api.js
-7.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\res\\resources-debug.ap_
-7.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
-11.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\uz_icon.png
-11.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\icon.png
+7.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug
+7.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug\\uzmap\\module.json
+11.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug\\widget\\config.xml
+11.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug
 9.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug
-9.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug\\widget\\index.html
+9.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug\\widget\\html\\main.html
 13.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug\\widget\\css\\api.css
 13.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug
-11.set=ANDROID_RESOURCE
+11.set=ASSET
 0.set=ANDROID_RESOURCE
 15.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main\\lib\\armeabi-v7a\\libsec.so
 15.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main
-7.set=ANDROID_RESOURCE
+7.set=ASSET
 14.set=NATIVE_RESOURCE
 3.set=DEX
 10.set=ASSET
@@ -33,12 +33,12 @@
 4.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug\\widget\\icon\\icon150x150.png
 4.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug
 6.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug
-6.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug\\uzmap\\module.json
+6.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug\\widget\\script\\api.js
 10.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug
-10.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug\\widget\\config.xml
+10.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug\\widget\\index.html
 13.set=ASSET
-8.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug
-8.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\assets\\debug\\widget\\html\\main.html
+8.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
 2.set=ASSET
 12.file=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
 12.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -46,6 +46,6 @@
 14.base=D\:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main
 9.set=ASSET
 count=16
-5.set=ASSET
+5.set=ANDROID_RESOURCE
 12.set=ANDROID_RESOURCE
 1.set=ASSET

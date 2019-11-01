@@ -24,7 +24,7 @@
 
     <application android:name="com.uzmap.pkg.uzapp.UZApplication"
         android:allowBackup="false"
-        android:icon="@drawable/uz_icon"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:hardwareAccelerated="true"

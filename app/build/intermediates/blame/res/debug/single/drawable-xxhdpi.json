@@ -4,7 +4,7 @@
         "source": "D:\\Wisdom\\Offline\\dcloud\\app\\src\\main\\res\\drawable-xxhdpi\\uz_splash_bg.png"
     },
     {
-        "merged": "D:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\uz_icon.png",
-        "source": "D:\\Wisdom\\Offline\\dcloud\\app\\src\\main\\res\\drawable-xxhdpi\\uz_icon.png"
+        "merged": "D:\\Wisdom\\Offline\\dcloud\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon.png",
+        "source": "D:\\Wisdom\\Offline\\dcloud\\app\\src\\main\\res\\drawable-xxhdpi\\icon.png"
     }
 ]
