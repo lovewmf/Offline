@@ -33,7 +33,11 @@
 				mui(".ui-notice-btn").on("tap","button",function(){
 					//ZySoftPlugin.PluginShowToastSync()
 					//ZySoftPlugin.PluginTellCall()
-					ZySoftPlugin.PluginInitSdk();
+					ZySoftPlugin.PluginInitSdk(function(res){
+						alert(res)
+					},function(erro){
+						alert(123)
+					});
 					console.log(plus.os.name)
 					//原生Toast
 					//let toast = Toast.makeText(plus.android.runtimeMainActivity(), "5+ App开发Native.js",Toast.LENGTH_SHORT);

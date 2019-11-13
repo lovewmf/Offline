@@ -1,11 +1,15 @@
 package com.wmf.dcloud;
 
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.os.SystemClock;
 import android.util.Log;
 
 import com.wmf.customize.CardReader;
@@ -32,6 +36,8 @@ public class ZySoftPlugin extends StandardFeature {
     private Context mCtx;
     private Function fun;
     private  CardReader cardReader;
+    private static final  int SUCCESSD =0;
+    private String text = "";
 
 
     public void onStart(Context pContext, Bundle pSavedInstanceState, String[] pRuntimeArgs) {
@@ -88,6 +94,28 @@ public class ZySoftPlugin extends StandardFeature {
 
     }
     public void PluginInitSdk(IWebview pWebview, JSONArray array){
-        cardReader.initSdk();
+        String CallBackID = array.optString(0);
+        openDevice(pWebview,CallBackID);
+    }
+    @SuppressLint("HandlerLeak")
+    public final Handler mHandler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            switch (msg.what){
+                case SUCCESSD:{
+                    Log.e(TAG, (String) msg.obj);
+                }
+            }
+        }
+    };
+    private void openDevice(final IWebview pWebview, final String CallBackID) {
+        new Thread() {
+            @Override
+            public void run() {
+               // mHandler.sendMessage(mHandler.obtainMessage(SUCCESSD, "this is Thread"));
+                JSUtil.execCallback(pWebview, CallBackID, "this is Thread", JSUtil.OK, false);//成功回调
+            }
+        }.start();
     }
 }
