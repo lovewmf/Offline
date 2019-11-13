@@ -52,8 +52,8 @@
                 "password" : "",
                 "aliasname" : "",
                 "minSdkVersion" : "14",
-                "targetSdkVersion" : "14",
                 "permissions" : [
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
                     "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
                     "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
                     "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",

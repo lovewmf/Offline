@@ -7,7 +7,6 @@
 		<link href="css/frozen.css" rel="stylesheet" />
 		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/plugin.js" type="text/javascript" charset="utf-8"></script>
-
 	</head>
 	<body>
 		<style>
@@ -30,8 +29,16 @@
 		<script type="text/javascript" charset="utf-8">
 			mui.init();
 			mui.plusReady(function() {
+				//let [Toast,Gravity] = [plus.android.importClass("android.widget.Toast"),plus.android.importClass("android.view.Gravity")];//引入包
 				mui(".ui-notice-btn").on("tap","button",function(){
-					ZySoftPlugin.PluginShowToastSync()
+					//ZySoftPlugin.PluginShowToastSync()
+					//ZySoftPlugin.PluginTellCall()
+					ZySoftPlugin.PluginInitSdk();
+					console.log(plus.os.name)
+					//原生Toast
+					//let toast = Toast.makeText(plus.android.runtimeMainActivity(), "5+ App开发Native.js",Toast.LENGTH_SHORT);
+					//toast.setGravity(Gravity.CENTER, 0, 0);
+					//toast.show();
 				})
    		   });
 		</script>

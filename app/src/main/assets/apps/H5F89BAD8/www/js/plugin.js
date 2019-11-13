@@ -18,6 +18,10 @@
 		PluginShowToastSync: function(){
             return plus.bridge.exec(_BARCODE,"PluginShowToastSync",[]);
 		},
+		//TellCall
+		PluginTellCall: function(){
+		    return plus.bridge.exec(_BARCODE,"PluginTellCall",[]);
+		},
 		 //同步无参数
         PluginShowToast: function(){
         	return plus.bridge.execSync(_BARCODE,"PluginShowToast",[]);
@@ -38,6 +42,20 @@
         //同步有参有返回值
         PluginArgsSync: function(args){
             return plus.bridge.execSync(_BARCODE, "PluginArgsSync", [args]);
+        },
+        PluginCapter: function(){
+            return plus.bridge.execSync(_BARCODE,"PluginCapter",[]);
+        },
+        //初始化sdk
+        PluginInitSdk: function(successCallback,errorCallback){
+             var success = typeof successCallback !== 'function' ? null : function(args) {
+                     successCallback(args);
+                 },
+                 fail = typeof errorCallback !== 'function' ? null : function(code) {
+                    errorCallback(code);
+                 };
+                 callbackID = plus.bridge.callbackId(success, fail);
+             return plus.bridge.exec(_BARCODE,"PluginInitSdk",[callbackID]);
         }
     };
     return ZySoftPlugin;

@@ -2,6 +2,8 @@ package com.wmf.method;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.util.Log;
 import android.view.Gravity;
 import android.widget.Toast;
